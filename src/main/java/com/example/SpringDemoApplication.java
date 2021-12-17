@@ -13,10 +13,6 @@ public class SpringDemoApplication {
 		}
 	}
 
-	@GetMapping(value = "/")
-	public String HelloWorld(){
-		return "Hello World";
-	}
 
 
 }
